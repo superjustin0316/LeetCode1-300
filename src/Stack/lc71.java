@@ -7,6 +7,7 @@ public class lc71 {
     public String lc71(String path){
         Stack<String> stack = new Stack<>();
         String[] paths = path.split("/+");
+
         for (String s : paths){
             if (s.equals("..")){
                 if (!stack.isEmpty()){

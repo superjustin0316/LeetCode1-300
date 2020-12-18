@@ -33,7 +33,7 @@ public class lc74_240 {
 
         while (col >= 0 && row <= matrix.length - 1){
             if (target == matrix[row][col]){
-                return  true;
+                return true;
             } else if (target < matrix[row][col]){
                 col--;
             } else {
